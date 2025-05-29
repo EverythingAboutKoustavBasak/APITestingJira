@@ -1,0 +1,14 @@
+[
+ {
+   "Issue Name": "Story",
+   "Issue Titel": "DDT - story creation by API"
+ },
+ {
+   "Issue Name": "Bug",
+   "Issue Titel": "DDT - bug creation by API"
+ },
+ {
+   "Issue Name": "Task",
+   "Issue Titel": "DDT - task creation by API"
+ }
+]
