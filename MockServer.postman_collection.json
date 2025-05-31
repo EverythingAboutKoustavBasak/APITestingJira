@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "b9a098ea-675c-42c6-b37a-74ce1cfe9517",
+		"name": "MockServer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43601722",
+		"_collection_link": "https://www.postman.com/koustavbasak/workspace/jira-api-testing/collection/43601722-b9a098ea-675c-42c6-b37a-74ce1cfe9517?action=share&source=collection_link&creator=43601722"
+	},
+	"item": [
+		{
+			"name": "success",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/success",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"success"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://6cc16bd1-850f-4321-94ef-8a58d949c3d5.mock.pstmn.io/success",
+							"protocol": "https",
+							"host": [
+								"6cc16bd1-850f-4321-94ef-8a58d949c3d5",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"success"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "Logged in sucessfully"
+				}
+			]
+		},
+		{
+			"name": "failure",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/failure",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"failure"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://6cc16bd1-850f-4321-94ef-8a58d949c3d5.mock.pstmn.io/failure",
+							"protocol": "https",
+							"host": [
+								"6cc16bd1-850f-4321-94ef-8a58d949c3d5",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"failure"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "Invalid credential"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://6cc16bd1-850f-4321-94ef-8a58d949c3d5.mock.pstmn.io"
+		}
+	]
+}
