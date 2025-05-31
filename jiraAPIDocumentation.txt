@@ -1,0 +1,5 @@
+Please use the following link to view the full API documentation created using Postman:
+
+🔗https://documenter.getpostman.com/view/43601722/2sB2qgddSo
+
+This documentation includes detailed information about the endpoints, request/response formats, and example payloads. It is intended for developers and testers working with this API.
